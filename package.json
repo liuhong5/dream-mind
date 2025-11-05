@@ -1,0 +1,40 @@
+{
+  "name": "dream-mind",
+  "version": "1.0.0",
+  "description": "一个功能强大的在线思维导图工具，支持AI辅助、多种布局、实时协作等功能",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "build": "echo 'No build process needed for static files'",
+    "deploy": "echo 'Ready for deployment'"
+  },
+  "keywords": [
+    "mindmap",
+    "思维导图",
+    "AI",
+    "visualization",
+    "canvas",
+    "javascript",
+    "productivity",
+    "brainstorming"
+  ],
+  "author": "Dream Mind Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/dream-mind.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/dream-mind/issues"
+  },
+  "homepage": "https://github.com/yourusername/dream-mind#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
